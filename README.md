@@ -6,14 +6,11 @@ capture" opponents by jumping over them diagonally. If a player captures another
 where another capturing move is available, this capturing move must be performed. If a player's piece makes it to the
 opposing player's side of the board, this piece is "kinged" and is allowed to move backwards diagonally one spot.
 
+![checkers screenshot](Screenshot%20from%202021-02-14%2015-27-55.png)
+
 ### Design Approach:
 
-Object Oriented. Each of the game pieces is an object and has properties relevant to
-its current state in the game. At times, this made creating the program easier and at others it made it more
-frusturating. The program was designed to utilize many Piece object methods and functions that either alter the data
-model or the visual UI board that appears in the browser. Unfortunately, my approach was scattered and unorganized. I
-frequently had to redesign functions and methods in order to keep progressing, only to find that these redesigns
-wouldn't work with later features. In the future, I plan to psuedocode and wireframe more effectively.
+Object Oriented.
 
 ## Code
 
